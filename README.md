@@ -1,0 +1,3 @@
+This repository demonstrates a common, albeit subtle, inefficiency in Elixir code using `Enum.reduce`.  The provided code performs a summation of elements exceeding a threshold, but it's implemented in a way that's less idiomatic and less efficient than alternative Elixir approaches.
+
+The `bug.ex` file contains the inefficient code. The `bugSolution.ex` illustrates a more efficient and idiomatic solution using Elixir's pattern matching and functional features.
